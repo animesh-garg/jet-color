@@ -50,7 +50,7 @@ var JET = (function() {
 		colors.b[i] = Math.min(255, 4*(i-96), 255 - 4*(i-224));
 		colors.b[i] = colors.b[i] < 0 ? 0 : colors.b[i];
 
-		colors.hex.push(rgbToHex(r,g,b));
+		colors.hex.push(rgbToHex(colors.r[i],colors.g[i],colors.b[i]));
 
 	}
 
