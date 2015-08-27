@@ -8,7 +8,5 @@ JET object has properties r, g, b, hex, which are 256-element arrays containing 
 
 ## Usage
 
-```var step = 127;
-```
-```var color = JET.hex[step];
-```
+`var step = 127;`
+`var color = JET.hex[step];`
